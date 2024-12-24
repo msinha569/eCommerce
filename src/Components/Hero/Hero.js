@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom'
 function Hero() {
   return (
     <div className='bg-slate-700 p-4 sm:flex block justify-center items-center '>
-        <div >
+        <div className='relative' >
         <img 
+        width="40px"
+        height="40px"
          className=' w-full h-64'
          src="car.svg"/>
         </div>
